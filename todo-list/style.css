@@ -1,0 +1,21 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  padding: 8px;
+}
+
+.input-button {
+  margin: 24px;
+}
