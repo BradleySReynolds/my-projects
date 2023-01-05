@@ -27,11 +27,7 @@ const countries = [
   { name: "Mexico", image: `${i}mex.png`, flag: `${i}mex-flag.png` },
   { name: "Cuba", image: `${i}cuba.png`, flag: `${i}cuba-flag.png` },
   { name: "Haiti", image: `${i}haiti.png`, flag: `${i}haiti-flag.png` },
-  {
-    name: "United Kingdom",
-    image: `${i}uk.png`,
-    flag: `${i}uk-flag.png`,
-  },
+  { name: "United Kingdom", image: `${i}uk.png`, flag: `${i}uk-flag.png` },
   { name: "Germany", image: `${i}germ.png`, flag: `${i}germ-flag.png` },
   { name: "Brazil", image: `${i}braz.png`, flag: `${i}braz-flag.png` },
   { name: "France", image: `${i}frac.png`, flag: `${i}frac-flag.png` },
