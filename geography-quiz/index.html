@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geography Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <button class="start-button">Take Geography Quiz</button>
+    <div class="info-container">
+      <div class="game-info">
+        <h1 class="score">Score: 0/10</h1>
+        <h1 class="correct-or-incorrect">Guess The Country!</h1>
+        <h1 class="counter">10 Remaining</h1>
+      </div>
+      <div class="pic-container"></div>
+      <form class="form-container">
+        <div class="option-container">
+          <input
+            type="radio"
+            name="quiz"
+            id="option1"
+            class="option-input"
+            checked
+          />
+          <label for="option1" class="option option1">Option 1: </label>
+        </div>
+        <div class="option-container">
+          <input type="radio" name="quiz" id="option2" class="option-input" />
+          <label for="option2" class="option option2">Option 2: </label>
+        </div>
+        <div class="option-container">
+          <input type="radio" name="quiz" id="option3" class="option-input" />
+          <label for="option3" class="option option3">Option 3: </label>
+        </div>
+        <div class="option-container">
+          <input type="radio" name="quiz" id="option4" class="option-input" />
+          <label for="option4" class="option option4">Option 4: </label>
+        </div>
+      </form>
+      <div class="btn-container">
+        <button class="submit-btn btn">Submit</button>
+        <button class="next-btn btn">Next</button>
+      </div>
+    </div>
+  </body>
+</html>

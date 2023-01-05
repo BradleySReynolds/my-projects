@@ -1,0 +1,69 @@
+* {
+  font-family: "Play", sans-serif;
+}
+
+.start-button {
+  display: block;
+  margin: 300px auto;
+  padding: 48px 96px;
+  border: 1px solid gray;
+
+  font-size: 48px;
+  background-color: white;
+}
+
+.start-button:hover {
+  background-image: url("images/background-image.jpg");
+  background-size: cover;
+  transition: background-image 1s;
+  cursor: pointer;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-container {
+  visibility: hidden;
+}
+
+.next-btn {
+  visibility: hidden;
+}
+
+.option {
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.option-container {
+  border: 1px solid grey;
+  padding: 8px;
+  margin: 8px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 8px;
+  padding: 8px 16px;
+  border: 1px solid grey;
+
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #5de23c;
+  color: white;
+  transition: 500ms;
+}
